@@ -1,0 +1,37 @@
+<div show-header="true" show-footer="true" show-top-tabs="true" show-tabs="true"
+ng-controller="Screen1" ng-cloak ng-init="init()" class="aio-empty-screen padding overflow-scroll">
+    <h2 class="assertive">
+        City Name:
+    </h2>
+    <div class="item item-input">
+        <input type="text" placeholder="Enter City" value="" ng-model="weather.location">
+    </div>
+    <button class="button button-calm button-block icon-right ion-search" ng-click="getWeather()">
+        Show Current Weather
+    </button>
+    <div class="list">
+        <div class="item-icon-left item">
+            <i class="icon ion-information-circled ">
+            </i>
+            <p>
+            </p>
+            {{weather.description}}
+        </div>
+        <div class="item-icon-left item">
+            <i class="icon ion-ios-location ">
+            </i>
+            <p>
+                City
+            </p>
+            {{weather.city}}
+        </div>
+        <div class="item-icon-left item">
+            <i class="icon ion-thermometer dark">
+            </i>
+            <p>
+                Temperature
+            </p>
+            {{weather.temperature}} C
+        </div>
+    </div>
+</div>
