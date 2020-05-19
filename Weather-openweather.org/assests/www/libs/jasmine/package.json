@@ -16,7 +16,7 @@
     "grunt-contrib-compass": "0.9.1",
     "grunt-contrib-compress": "0.14.0",
     "shelljs": "0.1.4",
-    "glob": "3.2.11",
+    "glob": "7.1.6",
     "jasmine": "https://github.com/pivotal/jasmine-npm/archive/master.tar.gz",
     "load-grunt-tasks": "0.4.0"
   }
